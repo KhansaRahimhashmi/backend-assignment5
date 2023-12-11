@@ -7,7 +7,7 @@ const Item = require('./DB/items');
 const app = express();
 const PORT = 3000;
 
-app.use(bodyParser.());
+app.use(bodyParser());
 
 // Connect to MongoDB
 connectDB();

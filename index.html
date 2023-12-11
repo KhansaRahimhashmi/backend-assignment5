@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Item Management</h1>
+
+    <form id="itemForm">
+      <label for="itemName">Item Name:</label>
+      <input type="text" id="itemName" required>
+
+      <label for="itemDescription">Item Description:</label>
+      <input type="text" id="itemDescription" required>
+
+      <button type="submit">Add Item</button>
+    </form>
+
+    <ul id="itemList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
